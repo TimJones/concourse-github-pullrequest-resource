@@ -10,6 +10,7 @@ RUN set -ex; \
   openssh-client \
   perl \
   ruby \
+  ruby-bigdecimal \
   ruby-json \
   ruby-bundler \
   ; \
