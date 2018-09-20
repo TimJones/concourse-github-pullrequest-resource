@@ -99,6 +99,12 @@ marked with that specific label. It is case insensitive.
   See the [`git-config(1)` manual page](https://www.kernel.org/pub/software/scm/git/docs/git-config.html)
   for more information and documentation of existing git options.
 
+* `branch_regex`: *Optional.* If specified, only Pull Requests from branches
+  matching the given regex will yield new versions from `check`.
+
+  See the [`Ruby Core Regex` documentation](https://ruby-doc.org/core-2.5.1/Regexp.html)
+  for information.
+
 ## Behavior
 
 ### `check`: Check for new pull requests
