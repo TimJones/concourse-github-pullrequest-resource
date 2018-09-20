@@ -55,6 +55,10 @@ class PullRequest
     @pr['html_url']
   end
 
+  def ref
+    @pr['head']['ref']
+  end
+
   private
 
   def base_repo
